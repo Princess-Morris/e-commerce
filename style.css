@@ -168,3 +168,43 @@
     padding-bottom: 90px;
     color: #F2F0FF;
 }
+
+
+.featured_products{
+    padding: 58px 120px 20px 60px;
+    overflow-x: hidden;
+}
+
+.featured_products .p_featured_products{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #1A0B5B;
+    display: flex;
+    justify-content: center;
+}
+
+.featured_products .grid_featured_products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid_featured_products .plastic_wood img{
+    width: 100%;
+    height: auto;
+}
+
+.grid_featured_products .brown_wood img{
+    width: 100%;
+    height: auto;
+}
+
+.grid_featured_products .blue_wood img{
+    width: 100%;
+    height: auto;
+}
+
+.grid_featured_products .baby_wood img{
+    width: 100%;
+    height: auto;
+}
