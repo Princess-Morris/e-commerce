@@ -170,3 +170,68 @@
 }
 
 
+.featured_products .p_featured_products{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #1A0B5B;
+}
+
+.plastic_wood_box .plastic_wood{
+     padding: 25px 30px 15px 30px;
+     border: none;
+     border-radius: 4px;
+     background: #F6F7FB;
+}
+
+.specification .cantilever_chair{
+    color: #FB2E86;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.specification .line_bars .first_line{
+    height: 4px;
+    width: 20px;
+    background-color:aqua;
+    border-radius: 2.5px
+}
+
+.specification .line_bars .second_line{
+    height: 4px;
+    width: 20px;
+    background-color: palevioletred;
+    border-radius: 2.5px
+}
+
+.specification .line_bars .third_line{
+    height: 4px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 2.5px
+}
+
+.specification .code{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #151875;
+}
+
+.specification .dollars{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #151875;
+}
+
+.brown_wood_box .top_section .font_awesome{
+    background-color: blue;
+    color: pink;
+}
+
