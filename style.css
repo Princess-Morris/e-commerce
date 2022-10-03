@@ -47,8 +47,7 @@
 .navbar .details .cart{
     padding-left: 15px;
 }
-
-
+ 
 .nav{
     display: flex;
     height: 60px;
@@ -95,6 +94,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(200px, 200px);
+    background-color: blue;
 }
 
 
@@ -103,6 +103,7 @@
     height: 200px;
     grid-column: 1;
     grid-row: 1/2;
+    background-color: red;
 }
 
 .new_collection{
@@ -112,6 +113,7 @@
     align-self: center;
     margin-top: 30px;
     padding-right: 15px;
+    background-color: gray;
 }
 
 .new_collection .best_furniture{
@@ -157,18 +159,18 @@
 .chair img{
     min-width: 50%;
     grid-column: 5/7;
-    width: 400px;
-    margin-top: 100px;
+    width: 500px;
+    margin-top: 50px;
     background-color:  #F2F0FF;
     padding-bottom: 10px;
+    background-color: yellow;
 }
 
 .space{
     background-color: #F2F0FF;
-    padding-bottom: 90px;
+    padding-bottom: 130px;
     color: #F2F0FF;
 }
-
 
 .featured_products .p_featured_products{
     font-family: 'Josefin Sans';
@@ -230,8 +232,20 @@
     color: #151875;
 }
 
-.brown_wood_box .top_section .font_awesome{
-    background-color: blue;
-    color: pink;
+.brown_wood_box .top_section .font_awesome .fa-shopping-cart{
+    /* background-color: blue; */
+    color: blue;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+.brown_wood_box .top_section .font_awesome .fa-heart{
+    color:  lightskyblue;
+}
+
+.brown_wood_box .top_section .font_awesome .fa-search-plus{
+    color: lightskyblue;
+}
+
+.brown_wood_box .brown_wood
