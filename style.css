@@ -181,7 +181,7 @@
 
 .featured_products .grid_featured_products{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .plastic_wood_box .plastic_wood{
@@ -191,8 +191,14 @@
      /* background: #F6F7FB; */
 }
 
-.plastic_wood_box .plastic_wood img{
+.plastic_wood_box{
+    width: 200px;
+    background-color: yellow;
+}
 
+.plastic_wood_box .plastic_wood img{
+     width: 50%;
+     height: 50%;
 }
 
 .specification .cantilever_chair{
@@ -241,6 +247,15 @@
     color: #151875;
 }
 
+.brown_wood_box{
+    width: 200px;
+    background-color: brown;
+}
+.brown_wood_box .brown_wood img{
+    width: 50%;
+    height: 50%;
+}
+
 .brown_wood_box .top_section .font_awesome .fa-shopping-cart{
     /* background-color: blue; */
     color: blue;
@@ -268,8 +283,8 @@
     font-family: 'Josefin Sans';
     font-size: 12px;
     line-height: 14px;
-    color: #FFFFFF;
-    background-color: lightgreen;
+    /* color: #FFFFFF; */
+    /* background-color: lightgreen; */
     /* padding: 20px; */
 }
 
@@ -280,9 +295,29 @@
     /* background: #F6F7FB; */
 }
 
+.blue_wood_box{
+    width: 200px;
+    background-color: blue;
+}
+
+.blue_wood_box .blue_wood img{
+    width: 50%;
+    height: 50%;
+}
+
 .baby_wood_box .baby_wood{
      /* padding: 25px 15px 15px 30px; */
      /* border: none; */
      /* border-radius: 4px; */
      /* background: #F6F7FB; */
+}
+
+.baby_wood_box{
+    width: 200px;
+    background-color: red;
+}
+
+.baby_wood_box .baby_wood img{
+    width: 50%;
+    height: 50%;
 }
