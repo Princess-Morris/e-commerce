@@ -177,11 +177,19 @@
     font-size: 42px;
     line-height: 49px;
     color: #1A0B5B;
+    padding-left: 510px;
+    padding-top: 30px;
 }
 
-.featured_products .grid_featured_products{
+.featured_products .grid_featured_products .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container{
+     width: 900px;
+     margin: 0 auto;
+     padding: 50px 0;
 }
 
 .plastic_wood_box .plastic_wood{
@@ -189,6 +197,7 @@
      /* border: none; */
      /* border-radius: 4px; */
      /* background: #F6F7FB; */
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .plastic_wood_box{
@@ -197,8 +206,8 @@
 }
 
 .plastic_wood_box .plastic_wood img{
-     width: 50%;
-     height: 50%;
+     width: 65%;
+     height: 65%;
 }
 
 .specification .cantilever_chair{
@@ -210,25 +219,36 @@
     line-height: 22px;
 }
 
+.specification{
+    padding-left: 20px;
+    background-color: orchid;
+}
+
+.specification .line_bars {
+    display: flex;
+}
+
 .specification .line_bars .first_line{
     height: 4px;
     width: 20px;
     background-color:aqua;
-    border-radius: 2.5px
+    border-radius: 2.5px;
+    margin-right: 5px;
 }
 
 .specification .line_bars .second_line{
     height: 4px;
     width: 20px;
     background-color: palevioletred;
-    border-radius: 2.5px
+    border-radius: 2.5px;
+    margin-right: 5px;
 }
 
 .specification .line_bars .third_line{
     height: 4px;
     width: 20px;
     background-color: blue;
-    border-radius: 2.5px
+    border-radius: 2.5px;
 }
 
 .specification .code{
@@ -266,6 +286,7 @@
 
 .brown_wood_box .top_section .font_awesome .fa-heart{
     color: aqua;
+    margin-right: 4px;
 }
 
 .brown_wood_box .top_section .font_awesome .fa-search-plus{
@@ -277,15 +298,18 @@
      /* border: none; */
      /* border-radius: 4px; */
      /* background: #F6F7FB; */
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .brown_wood_box .top_section .view_details{
     font-family: 'Josefin Sans';
     font-size: 12px;
     line-height: 14px;
-    /* color: #FFFFFF; */
-    /* background-color: lightgreen; */
-    /* padding: 20px; */
+    color: #FFFFFF;
+    background-color: lightgreen;
+    padding: 8px;
+    display: inline-flex;
+    margin-left: 18px;
 }
 
 .blue_wood_box .blue_wood{
@@ -293,6 +317,7 @@
     /* border: none; */
     /* border-radius: 4px; */
     /* background: #F6F7FB; */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .blue_wood_box{
@@ -301,8 +326,8 @@
 }
 
 .blue_wood_box .blue_wood img{
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: 65%;
 }
 
 .baby_wood_box .baby_wood{
@@ -310,6 +335,7 @@
      /* border: none; */
      /* border-radius: 4px; */
      /* background: #F6F7FB; */
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .baby_wood_box{
@@ -318,6 +344,6 @@
 }
 
 .baby_wood_box .baby_wood img{
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
 }
