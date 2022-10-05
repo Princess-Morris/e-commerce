@@ -464,5 +464,59 @@
     color: #151875;
     display: flex;
     justify-content: center;    
+    margin-bottom: 20px;
 }
 
+.arrivals .arrival_list .new_arrival{
+    color: #FB2E86;
+    text-decoration: underline;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 5px;
+    /* background-color: gray; */
+}
+
+.arrivals .arrival_list{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151875;
+    display: flex;
+    /* justify-content: center; */
+    width: 500px;
+    /* background-color: purple; */
+    margin-left: 450px;
+    margin-bottom: 50px;
+}
+
+.arrival_list .first_arrival{
+     width: 213px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.arrival_list .second_arrival{
+     display: flex;
+}
+
+.arrivals .arrival_list .best_seller{
+    /* background-color: yellow; */
+    /* margin-right: 80px; */
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+
+.arrivals .arrival_list .featured{
+    /* background-color: limegreen; */
+    margin-left: 43px;
+}
+
+.arrivals .arrival_list .special_offer{
+     /* background-color: hotpink; */
+     margin-left: 44px;
+}
