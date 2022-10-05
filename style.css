@@ -420,7 +420,7 @@
 .four_bars{
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .four_bars .bar_one{
@@ -454,3 +454,15 @@
     border-radius: 3px;
     background-color: #FF94DF;
 }
+
+
+
+.leatest_products .p_leatest_products{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    display: flex;
+    justify-content: center;    
+}
+
