@@ -178,18 +178,22 @@
     line-height: 49px;
     color: #1A0B5B;
     padding-left: 510px;
-    padding-top: 30px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.featured_products .grid_featured_products{
+    margin-bottom: 100px;
 }
 
 .featured_products .grid_featured_products .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+    width: 900px;
+    margin: 0 auto;
+    gap: 1rem;
+    /* padding-top: 50px 0; */
 
-.container{
-     width: 900px;
-     margin: 0 auto;
-     padding: 50px 0;
 }
 
 .plastic_wood_box .plastic_wood{
@@ -197,17 +201,27 @@
      /* border: none; */
      /* border-radius: 4px; */
      /* background: #F6F7FB; */
-     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+     /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08); */
 }
 
 .plastic_wood_box{
-    width: 200px;
-    background-color: yellow;
+    width: 210px;
+    height: 295px;
+    background-color: #F6F7FB;
+    border-radius: 15px;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .plastic_wood_box .plastic_wood img{
-     width: 65%;
-     height: 65%;
+     width: 75%;
+     height: 75%;
+}
+
+.plastic_wood_box .plastic_wood{
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .specification .cantilever_chair{
@@ -217,21 +231,28 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+    padding-top: 10px;
 }
 
 .specification{
-    padding-left: 20px;
-    background-color: orchid;
+    /* padding-left: 20px; */
+    /* background-color: orchid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 110px; */
 }
 
 .specification .line_bars {
     display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .specification .line_bars .first_line{
     height: 4px;
     width: 20px;
-    background-color:aqua;
+    background-color: #05E6B7;
     border-radius: 2.5px;
     margin-right: 5px;
 }
@@ -239,7 +260,7 @@
 .specification .line_bars .second_line{
     height: 4px;
     width: 20px;
-    background-color: palevioletred;
+    background-color: #F701A8;
     border-radius: 2.5px;
     margin-right: 5px;
 }
@@ -247,7 +268,7 @@
 .specification .line_bars .third_line{
     height: 4px;
     width: 20px;
-    background-color: blue;
+    background-color: #FFEAC1;
     border-radius: 2.5px;
 }
 
@@ -256,6 +277,7 @@
     font-size: 14px;
     line-height: 16px;
     color: #151875;
+    padding-bottom: 10px;
 }
 
 .specification .dollars{
@@ -268,9 +290,13 @@
 }
 
 .brown_wood_box{
-    width: 200px;
-    background-color: brown;
+    width: 210px;
+    background-color: #F7F7F7;
+    height: 240px;
+    border-radius: 15px;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .brown_wood_box .brown_wood img{
     width: 50%;
     height: 50%;
@@ -282,23 +308,26 @@
     padding: 5px;
     border-radius: 50%;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+    margin-left: 10px;
 }
 
 .brown_wood_box .top_section .font_awesome .fa-heart{
     color: aqua;
-    margin-right: 4px;
+    margin-left: 10px;
 }
 
 .brown_wood_box .top_section .font_awesome .fa-search-plus{
     color: aqua;
+    margin-left: 10px;
 }
 
 .brown_wood_box .top_section .brown_wood{
-     /* padding: 25px 15px 15px 30px; */
-     /* border: none; */
-     /* border-radius: 4px; */
-     /* background: #F6F7FB; */
-     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+     display: flex;
+     justify-content: center;
+}
+
+.brown_wood_box .top_section{
+    background: #F7F7F7;
 }
 
 .brown_wood_box .top_section .view_details{
@@ -306,10 +335,34 @@
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
-    background-color: lightgreen;
-    padding: 8px;
-    display: inline-flex;
-    margin-left: 18px;
+    background-color: #08D15F;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.brown_wood_box .specification{
+  height: 110px;
+  background-color: #2F1AC4;
+}
+
+.brown_wood_box .specification .cantilever_chair{
+    color: #fff;
+    padding-top: 10px;
+}
+
+.brown_wood_box .specification .code{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.brown_wood_box .specification .dollars{
+    color: #fff;
+    padding-bottom: 10px;
 }
 
 .blue_wood_box .blue_wood{
@@ -317,17 +370,25 @@
     /* border: none; */
     /* border-radius: 4px; */
     /* background: #F6F7FB; */
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08); */
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blue_wood_box{
-    width: 200px;
     background-color: blue;
+    width: 210px;
+    height: 295px;
+    background-color: #F6F7FB;
+    border-radius: 15px;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .blue_wood_box .blue_wood img{
-    width: 65%;
-    height: 65%;
+    width: 75%;
+    height: 75%;
 }
 
 .baby_wood_box .baby_wood{
@@ -335,15 +396,61 @@
      /* border: none; */
      /* border-radius: 4px; */
      /* background: #F6F7FB; */
-     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+     /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08); */
+     height: 185px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
 }
 
 .baby_wood_box{
     width: 200px;
-    background-color: red;
+    /* background-color: red; */
+    background-color: #F7F7F7;
+    border-radius: 15px;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .baby_wood_box .baby_wood img{
-    width: 90%;
-    height: 90%;
+    width: 75%;
+    height: 75%;
+}
+
+.four_bars{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.four_bars .bar_one{
+    height: 4px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: #F83667;
+}
+
+.four_bars .bar_two{
+    height: 4px;
+    width: 20px;
+    border-radius: 3px;
+    background-color: #FF94DF;
+    margin-left: 10px;
+}
+
+.four_bars .bar_three{
+    height: 4px;
+    width: 20px;
+    border-radius: 3px;
+    background-color: #FF94DF;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.four_bars .bar_four{
+    height: 4px;
+    width: 20px;
+    border-radius: 3px;
+    background-color: #FF94DF;
 }
