@@ -113,7 +113,6 @@
     align-self: center;
     margin-top: 30px;
     padding-right: 15px;
-    /* background-color: gray; */
 }
 
 .new_collection .best_furniture{
@@ -163,7 +162,6 @@
     margin-top: 50px;
     background-color:  #F2F0FF;
     padding-bottom: 10px;
-    /* background-color: yellow; */
 }
 
 .space{
@@ -177,7 +175,7 @@
     font-size: 42px;
     line-height: 49px;
     color: #1A0B5B;
-    padding-left: 510px;
+    padding-left: 520px;
     padding-top: 100px;
     margin-bottom: 20px;
 }
@@ -192,36 +190,24 @@
     width: 900px;
     margin: 0 auto;
     gap: 1rem;
-    /* padding-top: 50px 0; */
-
 }
 
-.plastic_wood_box .plastic_wood{
-     /* padding: 25px 15px 15px 30px; */
-     /* border: none; */
-     /* border-radius: 4px; */
-     /* background: #F6F7FB; */
-     /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08); */
-}
-
-.plastic_wood_box{
-    width: 210px;
-    height: 295px;
-    background-color: #F6F7FB;
-    border-radius: 15px;
+.specification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110px;
+    background-color:#FFFFFF;
+    border: 1px solid #F2F4FF;
     box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.plastic_wood_box .plastic_wood img{
-     width: 75%;
-     height: 75%;
-}
-
-.plastic_wood_box .plastic_wood{
-    height: 185px;
+.specification:hover{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    height: 110px;
+    background-color: #2F1AC4;
 }
 
 .specification .cantilever_chair{
@@ -234,14 +220,17 @@
     padding-top: 10px;
 }
 
-.specification{
-    /* padding-left: 20px; */
-    /* background-color: orchid; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* height: 110px; */
+
+.specification .cantilever_chair:hover{
+    color: #FECBE1;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 10px;
 }
+
 
 .specification .line_bars {
     display: flex;
@@ -268,9 +257,18 @@
 .specification .line_bars .third_line{
     height: 4px;
     width: 20px;
+    background-color:#00009D;
+    border-radius: 2.5px;
+}
+
+
+.specification .line_bars .third_line:hover{
+    height: 4px;
+    width: 20px;
     background-color: #FFEAC1;
     border-radius: 2.5px;
 }
+
 
 .specification .code{
     font-family: 'Josefin Sans';
@@ -279,6 +277,15 @@
     color: #151875;
     padding-bottom: 10px;
 }
+
+.specification .code:hover{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
 
 .specification .dollars{
     font-family: 'Lato';
@@ -289,21 +296,26 @@
     color: #151875;
 }
 
-.brown_wood_box{
-    width: 210px;
-    background-color: #F7F7F7;
-    height: 240px;
-    border-radius: 15px;
-    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+.specification .dollars:hover{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    padding-bottom: 10px;
 }
 
-.brown_wood_box .brown_wood img{
-    width: 50%;
-    height: 50%;
+/*.plastic_wood_box */.top_section .font_awesome .fa-shopping-cart{
+    color:#F7F7F7;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: none;
+    margin-left: 10px;
 }
 
-.brown_wood_box .top_section .font_awesome .fa-shopping-cart{
-    /* background-color: blue; */
+/*.plastic_wood_box*/ .top_section .font_awesome .fa-shopping-cart:hover{
     color: blue;
     padding: 5px;
     border-radius: 50%;
@@ -311,26 +323,53 @@
     margin-left: 10px;
 }
 
-.brown_wood_box .top_section .font_awesome .fa-heart{
+
+/*.plastic_wood_box*/ .top_section .font_awesome .fa-heart{
+    color:#F7F7F7;
+    margin-left: 10px;
+}
+
+/*.plastic_wood_box*/ .top_section .font_awesome .fa-heart:hover{
     color: aqua;
     margin-left: 10px;
 }
 
-.brown_wood_box .top_section .font_awesome .fa-search-plus{
-    color: aqua;
+/*.plastic_wood_box*/ .top_section .font_awesome .fa-search-plus:hover{
+    color:aqua;
     margin-left: 10px;
 }
 
-.brown_wood_box .top_section .brown_wood{
+/*.plastic_wood_box*/ .top_section .font_awesome .fa-search-plus{
+    color:#F7F7F7;
+    margin-left: 10px;
+}
+
+/*.plastic_wood_box*/ .top_section .plastic_wood{
      display: flex;
      justify-content: center;
 }
 
-.brown_wood_box .top_section{
-    background: #F7F7F7;
+/*.plastic_wood_box*/ .top_section{
+    /* /* background: #F7F7F7; */
+    background-color:#F7F7F7;
 }
 
-.brown_wood_box .top_section .view_details{
+/*.plastic_wood_box*/ .top_section .view_details{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14px;
+    color:#F7F7F7;
+    background-color:#F7F7F7;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+/*.plastic_wood_box*/ .top_section .view_details:hover{
     font-family: 'Josefin Sans';
     font-size: 12px;
     line-height: 14px;
@@ -345,76 +384,83 @@
     justify-content: center;
 }
 
-.brown_wood_box .specification{
-  height: 110px;
-  background-color: #2F1AC4;
+
+.plastic_wood_box{
+    width: 210px;
+    background-color: #F7F7F7;
+    height: 240px;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.brown_wood_box .specification .cantilever_chair{
-    color: #fff;
-    padding-top: 10px;
-}
-
-.brown_wood_box .specification .code{
-    color: #fff;
-    padding-bottom: 10px;
-}
-
-.brown_wood_box .specification .dollars{
-    color: #fff;
-    padding-bottom: 10px;
-}
-
-.blue_wood_box .blue_wood{
-    /* padding: 25px 15px 15px 30px; */
-    /* border: none; */
-    /* border-radius: 4px; */
-    /* background: #F6F7FB; */
-    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08); */
-    height: 185px;
+.plastic_wood{
+    height: 121px;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.plastic_wood_box .plastic_wood img{
+    width: 130px;
+    height: 100%;
+}
+ 
+
+.brown_wood_box{
+    width: 210px;
+    background-color: #F7F7F7;
+    height: 240px;
+    border-radius: 15px;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.brown_wood{
+    height: 121px;
+    display: flex;
+    justify-content: center;
+}
+
+.brown_wood_box .plastic_wood img{
+    width: 130px;
+    height: 100%;
 }
 
 .blue_wood_box{
-    background-color: blue;
     width: 210px;
-    height: 295px;
-    background-color: #F6F7FB;
+    background-color: #F7F7F7;
+    height: 240px;
     border-radius: 15px;
     box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.blue_wood{
+    height: 121px;
+    display: flex;
+    justify-content: center;
 }
 
 .blue_wood_box .blue_wood img{
-    width: 75%;
-    height: 75%;
+    width: 130px;
+    height: 100%;
 }
 
-.baby_wood_box .baby_wood{
-     /* padding: 25px 15px 15px 30px; */
-     /* border: none; */
-     /* border-radius: 4px; */
-     /* background: #F6F7FB; */
-     /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08); */
-     height: 185px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
-}
+
 
 .baby_wood_box{
-    width: 200px;
-    /* background-color: red; */
+    width: 210px;
     background-color: #F7F7F7;
+    height: 240px;
     border-radius: 15px;
     box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.baby_wood{
+    height: 121px;
+    display: flex;
+    justify-content: center;
+}
+
 .baby_wood_box .baby_wood img{
-    width: 75%;
-    height: 75%;
+    width: 130px;
+    height: 100%;
 }
 
 .four_bars{
@@ -504,12 +550,7 @@
      display: flex;
 }
 
-.arrivals .arrival_list .best_seller{
-    /* background-color: yellow; */
-    /* margin-right: 80px; */
-    /* display: flex; */
-    /* justify-content: flex-start; */
-}
+ 
 
 .arrivals .arrival_list .featured{
     /* background-color: limegreen; */
@@ -519,4 +560,30 @@
 .arrivals .arrival_list .special_offer{
      /* background-color: hotpink; */
      margin-left: 44px;
+}
+
+.about .about_text{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 19px;
+    color: #151875;
+}
+
+.about .about_dollars{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #151875;
+}
+
+.about .about_dollars > span{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    color: #FB2448;
+}
+
+.first_column.angle_tag{
+   
 }
