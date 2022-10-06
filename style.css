@@ -747,3 +747,88 @@ justify-content: space-between;
     width: 60%;
     height: 95%;
 }
+
+.shopex_grid{
+    margin-bottom: 140px;
+}
+
+.p_shopex_offer{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.shopex_grid .container{
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem
+}
+
+.mini_box{
+    width: 210px;
+    height: 240px;
+    /* background-color: yellow; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 2px;
+}
+
+.car{
+    font-size: 40px;
+    color: red;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.comment_dollar{
+    font-size: 40px;
+    color: orange;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.trophy{
+    font-size: 40px;
+    color: orchid;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.circle_notch{
+    font-size: 40px;
+    color: gray;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.time{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 26px;
+    color: #151875;
+    font-weight: bold;
+}
+
+.lorem10{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(26, 11, 91, 0.3);
+    letter-spacing: normal;
+    /* background-color: green; */
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
