@@ -562,11 +562,109 @@
      margin-left: 44px;
 }
 
+.grid_leatest_products_one{
+    margin-bottom: 80px;
+}
+
+.grid_leatest_products_one .container{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 1rem;
+    /* background-color: goldenrod; */
+}
+
+.squared_box{
+    height: 200px;
+    width: 270px;
+    /* background-color: red; */
+}
+
+.grid_leatest_products_two{
+    margin-bottom: 80px;
+}
+
+.grid_leatest_products_two .container{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 1rem;
+} 
+
+.thick_solfa{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #F7F7F7;
+    height: 170px
+}
+
+.thick_solfa img{
+    width: 60%;
+    height: 95%;
+}
+
+.squared_box .top_section{
+    background-color: #fff;
+}
+
+.gold_wood{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    /* background-color: #05E6B7; */
+    height: 170px;
+}
+
+.gold_wood img{
+    width: inherit;
+    height: 100%;
+}
+
+
+.squared_box .top_section{
+    display: flex;
+}
+
+.angle_tag img{
+    /* background-color: yellow; */
+    /* margin-left: auto; */
+}
+
+.angle_tag img{
+    width: 80%;
+    height: 100%;
+}
+
+.plastic_2_wood{
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+    align-items: flex-end;
+    height: 170px
+}
+
+.plastic_2_wood img{
+    width: 60%;
+    height: 95%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    /* background-color: purple; */
+
+}
+
 .about .about_text{
     font-family: 'Josefin Sans';
     font-size: 16px;
     line-height: 19px;
     color: #151875;
+    border-bottom: 2px ridge #EEEFFB;
 }
 
 .about .about_dollars{
@@ -584,6 +682,68 @@
     color: #FB2448;
 }
 
-.first_column.angle_tag{
-   
+
+.top_section .first_column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* background-color: #F701A8; */
+}
+
+.first_column{
+justify-content: space-between;
+}
+
+.first_column .font_awesome{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    /* padding-right: 8px; */
+}
+
+.font_awesome .search_plus{
+    padding-bottom: 6px;
+}
+
+.font_awesome .heart{
+
+}
+
+.king_wood{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #F7F7F7;
+    height: 170px
+}
+
+.king_wood img{
+    width: 60%;
+    height: 95%;
+}
+
+.blck_upholstery{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #F7F7F7;
+    height: 170px
+}
+
+.blck_upholstery img{
+    width: 60%;
+    height: 95%;
+}
+
+.baby2_wood{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #F7F7F7;
+    height: 170px
+}
+
+.baby2_wood img{
+    width: 60%;
+    height: 95%;
 }
