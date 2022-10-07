@@ -175,7 +175,7 @@
     font-size: 42px;
     line-height: 49px;
     color: #1A0B5B;
-    padding-left: 520px;
+    margin-left: 520px;
     padding-top: 100px;
     margin-bottom: 20px;
 }
@@ -831,4 +831,108 @@ justify-content: space-between;
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .home_page{
+        display: none;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .nav{
+        display: none;
+    }
+    
+    .new_furniture{
+        background-color:  #F2F0FF;
+        display: flex;
+        flex-direction: column;
+        /* background-color: greenyellow; */
+        align-items: center;
+    }
+   
+    .new_collection .best_furniture{
+        font-size: xx-large;
+        /* background-color: skyblue; */
+        font-weight: 1000px;
+    }
+
+    .bell_image img{
+        display: none;
+    }
+
+    .new_collection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new_collection .in_2020{
+        text-align: center;
+        font-size: x-large;
+        padding-top: 40px;
+        /* background-color: yellow; */
+        line-height: 20px;
+    }
+
+    .new_collection .lorem{
+        text-align: center;
+        /* background-color: orange; */
+    }
+
+    .new_collection .shop_now{
+        margin-top: 6px;
+        padding: 5px 22px 5px 22px;
+        border-radius: 8px;
+        border: 2px solid #FB2E86;
+        background-color: #fff;
+        color: #FB2E86;
+    }
+
+    .new_collection .shop_now:hover{
+        margin-top: 6px;
+        padding: 5px 22px 5px 22px;
+        border-radius: 8px;
+        background-color: #FB2E86;
+        color: #fff;
+    }
+
+    .space{
+        display: none;
+    }
+
+    .featured_products .p_featured_products{
+       margin-left: 160px;
+       margin-bottom: 40px;
+       font-size: 33px;
+    }
+
+    .featured_products .grid_featured_products .container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .plastic_wood_box{
+        width: 400px;
+        height:300px;
+        margin-left: 105px;
+    }
+
+    .plastic_wood_box .top_section{
+        
+    }
+
+    .plastic_wood_box img{
+
+    }
+
 }
