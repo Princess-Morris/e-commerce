@@ -873,6 +873,7 @@ justify-content: space-between;
         display: flex;
         flex-direction: column;
         align-items: center;
+        /* padding-left: 10px; */
     }
 
     .new_collection .in_2020{
@@ -886,6 +887,8 @@ justify-content: space-between;
     .new_collection .lorem{
         text-align: center;
         /* background-color: orange; */
+        /* margin-left: 8px; */
+        /* margin-right: 8px; */
     }
 
     .new_collection .shop_now{
@@ -910,29 +913,40 @@ justify-content: space-between;
     }
 
     .featured_products .p_featured_products{
-       margin-left: 160px;
+       margin-left: 115px;
        margin-bottom: 40px;
        font-size: 33px;
     }
 
     .featured_products .grid_featured_products .container{
+       display: grid;
+       grid-template-columns: 2fr 2fr;
+       width: 500px;
+       row-gap: 6rem;
+    }
+
+    .chair img{
+       height: 70%;
+       width: 70%
+    }
+
+    .chair{
         display: flex;
-        flex-direction: column;
-        gap: 2rem;
+        justify-content: center;
     }
 
-    .plastic_wood_box{
-        width: 400px;
-        height:300px;
-        margin-left: 105px;
+    .leatest_products .p_leatest_products{
+        font-size: 33px;
     }
 
-    .plastic_wood_box .top_section{
-        
+    .grid_leatest_products_one .container{
+        width: 500px;
+        display: block;
+        margin-left: 100px;
     }
 
-    .plastic_wood_box img{
-
+    .squared_box{
+        margin-bottom: 40px;
     }
 
 }
