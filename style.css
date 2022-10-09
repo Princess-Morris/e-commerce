@@ -62,6 +62,7 @@
     color: #0D0E43;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .nav .about{
@@ -74,6 +75,7 @@
     color:#0D0E43;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .nav .about > div{
@@ -178,6 +180,7 @@
     margin-left: 520px;
     padding-top: 100px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .featured_products .grid_featured_products{
@@ -511,6 +514,7 @@
     display: flex;
     justify-content: center;    
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .arrivals .arrival_list .new_arrival{
@@ -760,6 +764,7 @@ justify-content: space-between;
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
+    font-weight: bold;
 }
 
 .shopex_grid .container{
@@ -986,9 +991,85 @@ justify-content: space-between;
    padding-top: 5px;
 }
 
+.trending_products{
+    margin-bottom: 40px;
+    /* background-color: yellow; */
+}
 
+.trending_products .p_trending_products{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 600px;
+    font-weight: bold;
+}
 
+.trending_products .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 900px;
+    margin: 0 auto;
+    gap: 1rem;
+}
 
+.container .upholstery_box{
+    /* background-color: red; */
+    width: 210px;
+    height: 280px;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.upholstery_box .trending_image{
+    background-color: #F5F6F8;
+    width: 90%;
+    margin-left: 12px;
+    margin-top: 10px;
+    height: 65%;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.trending_image img{
+   height: 80%;
+   width: 75%;
+}
+
+.upholstery_box .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.description .first_des{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* text-align: center; */
+    color: #151875;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+
+.description .second_des{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    /* text-align: center; */
+     color: #151875;
+     font-weight: bold;
+}
+
+.description .second_des > span{
+    font-weight: lighter;
+    padding-left: 15px;
+}
 
 
 
