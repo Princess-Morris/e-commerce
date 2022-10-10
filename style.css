@@ -1071,6 +1071,208 @@ justify-content: space-between;
     padding-left: 15px;
 }
 
+.off_products{
+    margin-bottom: 120px;
+    /* background-color: purple; */
+}
+
+.off_products .container{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.off_chair img{
+    /* width: 100%; */
+    /* height: inherit; */
+}
+
+.a_box{
+    background-color: #FFF6FB;
+    /* height: 400px; */
+    width: 325px;
+    height: 235px;
+    margin-right: 18px;
+}
+
+.a_box img{
+    width: 80%;
+    height: 100%;
+}
+
+.a_box .a_box_text{
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    /* text-align: center; */
+    color: #151875;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.a_box .a_box_text_two{
+    font-family: 'Josefin Sans';
+    font-size: 26px;
+    line-height: 30px;
+    /* text-align: center; */
+    color: #151875;
+}
+
+.shop_now_space{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop_now_space .shop_now{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    /* text-align: center; */
+    text-decoration-line: underline;
+    color: #FB2E86;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.shop_now_space .off_products{
+    /* background-color: palevioletred; */
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.a_box_two{
+    background-color: #EEEFFB;
+    width: 325px;
+    margin-right: 18px;
+    height: 235px;
+}
+
+.a_box_two .a_box_text{
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    /* text-align: center; */
+    color: #151875;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.a_box_two .view_collection{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    /* text-align: center; */
+    text-decoration-line: underline;
+    color: #FB2E86;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.a_box_two .off_products{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a_box_two img{
+    width: 75%;
+    height: 40%;
+}
+
+.off_text{
+    padding-left: 8px;
+    padding-top: 18px;
+    font-weight: 530;
+}
+
+.off_text .text_one{
+    font-family: 'Josefin Sans';
+    font-size: 13px;
+    line-height: 19px;
+    /* text-align: center; */
+    color: #151875;
+    /* padding-left: 10px; */
+}
+
+.off_text .text_two{
+    font-family: 'Josefin Sans';
+    font-size: 11px;
+    line-height: 14px;
+    /* text-align: center; */
+    text-decoration-line: line-through;
+    color: #151875;
+}
+
+.off_chair_one_space{
+    display: flex;
+}
+
+.off_chair_one_space .off_chair{
+    background-color: #F5F6F8;
+    margin-bottom: 16px;
+    padding-left: 18px;
+    padding-right: 15px;
+    /* padding-bottom: 10px; */
+    height: 68px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_discount_item{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    font-weight: bold;
+}
+
+/* .discount_list . */
+
+.chair_space .wood_chair{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151875;
+}
+
+.chair_space .plastic_chair{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151875;
+}
+
+.chair_space .sofa_collection_chair{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151875;
+}
+
+.chair_space .dot{
+    font-size: 50px;
+}
+
+
+
+
 
 
 
@@ -1199,4 +1401,28 @@ justify-content: space-between;
         margin-bottom: 40px;
     }
 
+    .leatest_products .p_leatest_products{
+        /* font-size: 33px; */
+    }
+
+    .grid_leatest_products_two .container{
+        width: 500px;
+        display: block;
+        margin-left: 100px;
+    }
+
+    .squared_box{
+        margin-bottom: 40px;
+    }
+    
+    .p_shopex_offer{
+        font-size: 33px; 
+    }
+   
+    .shopex_grid .container{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        width: 500px;
+        row-gap: 6rem;
+    }
 }
