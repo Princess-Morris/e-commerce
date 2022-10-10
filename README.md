@@ -9,3 +9,5 @@
 ![CHEESE!](unique_images/unique_pic.png)
 
 ![CHEESE!](trending_images/trending_pic.png)
+
+![CHEESE!](trending_images/trending_pic2.png)
