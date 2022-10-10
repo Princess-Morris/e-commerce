@@ -1,1 +1,1 @@
-![CHEESE!](screen_view_pics/furniture_pic.png)
+![CHEESE!](images/screen_view_pics/new_furniture_pic.png)
