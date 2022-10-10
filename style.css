@@ -96,9 +96,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(200px, 200px);
-    /* background-color: blue; */
 }
-
 
 .bell_image img{
     max-width: 200px;
@@ -106,6 +104,7 @@
     grid-column: 1;
     grid-row: 1/2;
     /* background-color: red; */
+    margin-left: auto;
 }
 
 .new_collection{
@@ -310,7 +309,7 @@
     padding-bottom: 10px;
 }
 
-/*.plastic_wood_box */.top_section .font_awesome .fa-shopping-cart{
+.top_section .font_awesome .fa-shopping-cart{
     color:#F7F7F7;
     padding: 5px;
     border-radius: 50%;
@@ -318,7 +317,7 @@
     margin-left: 10px;
 }
 
-/*.plastic_wood_box*/ .top_section .font_awesome .fa-shopping-cart:hover{
+.top_section .font_awesome .fa-shopping-cart:hover{
     color: blue;
     padding: 5px;
     border-radius: 50%;
@@ -327,37 +326,36 @@
 }
 
 
-/*.plastic_wood_box*/ .top_section .font_awesome .fa-heart{
+.top_section .font_awesome .fa-heart{
     color:#F7F7F7;
     margin-left: 10px;
 }
 
-/*.plastic_wood_box*/ .top_section .font_awesome .fa-heart:hover{
+.top_section .font_awesome .fa-heart:hover{
     color: aqua;
     margin-left: 10px;
 }
 
-/*.plastic_wood_box*/ .top_section .font_awesome .fa-search-plus:hover{
+.top_section .font_awesome .fa-search-plus:hover{
     color:aqua;
     margin-left: 10px;
 }
 
-/*.plastic_wood_box*/ .top_section .font_awesome .fa-search-plus{
+.top_section .font_awesome .fa-search-plus{
     color:#F7F7F7;
     margin-left: 10px;
 }
 
-/*.plastic_wood_box*/ .top_section .plastic_wood{
+.top_section .plastic_wood{
      display: flex;
      justify-content: center;
 }
 
-/*.plastic_wood_box*/ .top_section{
-    /* /* background: #F7F7F7; */
+.top_section{
     background-color:#F7F7F7;
 }
 
-/*.plastic_wood_box*/ .top_section .view_details{
+ .top_section .view_details{
     font-family: 'Josefin Sans';
     font-size: 12px;
     line-height: 14px;
@@ -372,7 +370,7 @@
     justify-content: center;
 }
 
-/*.plastic_wood_box*/ .top_section .view_details:hover{
+.top_section .view_details:hover{
     font-family: 'Josefin Sans';
     font-size: 12px;
     line-height: 14px;
@@ -504,7 +502,10 @@
     background-color: #FF94DF;
 }
 
-
+/* .leatest_products
+////////////////////////////////
+///////////////////////////////
+////////////////////////////// */
 
 .leatest_products .p_leatest_products{
     font-family: 'Josefin Sans';
@@ -526,7 +527,6 @@
     font-size: 18px;
     line-height: 22px;
     margin-right: 5px;
-    /* background-color: gray; */
 }
 
 .arrivals .arrival_list{
@@ -537,9 +537,7 @@
     line-height: 22px;
     color: #151875;
     display: flex;
-    /* justify-content: center; */
     width: 500px;
-    /* background-color: purple; */
     margin-left: 450px;
     margin-bottom: 50px;
 }
@@ -557,12 +555,10 @@
  
 
 .arrivals .arrival_list .featured{
-    /* background-color: limegreen; */
     margin-left: 43px;
 }
 
 .arrivals .arrival_list .special_offer{
-     /* background-color: hotpink; */
      margin-left: 44px;
 }
 
@@ -576,13 +572,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
     gap: 1rem;
-    /* background-color: goldenrod; */
 }
 
 .squared_box{
     height: 200px;
     width: 270px;
-    /* background-color: red; */
 }
 
 .grid_leatest_products_two{
@@ -616,9 +610,7 @@
 
 .gold_wood{
     display: flex;
-    /* justify-content: flex-start; */
     align-items: flex-end;
-    /* background-color: #05E6B7; */
     height: 170px;
 }
 
@@ -630,11 +622,6 @@
 
 .squared_box .top_section{
     display: flex;
-}
-
-.angle_tag img{
-    /* background-color: yellow; */
-    /* margin-left: auto; */
 }
 
 .angle_tag img{
@@ -659,7 +646,6 @@
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
-    /* background-color: purple; */
 
 }
 
@@ -691,7 +677,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /* background-color: #F701A8; */
 }
 
 .first_column{
@@ -702,15 +687,10 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     padding-right: 20px;
-    /* padding-right: 8px; */
 }
 
 .font_awesome .search_plus{
     padding-bottom: 6px;
-}
-
-.font_awesome .heart{
-
 }
 
 .king_wood{
@@ -752,6 +732,11 @@ justify-content: space-between;
     height: 95%;
 }
 
+/* shopex_offer 
+////////////////////////////
+//////////////////////////
+//////////////////////////*/
+
 .shopex_grid{
     margin-bottom: 140px;
 }
@@ -778,7 +763,6 @@ justify-content: space-between;
 .mini_box{
     width: 210px;
     height: 240px;
-    /* background-color: yellow; */
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -832,11 +816,15 @@ justify-content: space-between;
     text-align: center;
     color: rgba(26, 11, 91, 0.3);
     letter-spacing: normal;
-    /* background-color: green; */
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* unique_products starts
+////////////////////////
+///////////////////// ///
+///////////////////////*/
 
 .unique_products .two_flex{
     display: flex;
@@ -991,9 +979,13 @@ justify-content: space-between;
    padding-top: 5px;
 }
 
+/* .trending_products
+////////////////////////////
+////////////////////////////
+////////////////////////// */
+
 .trending_products{
     margin-bottom: 40px;
-    /* background-color: yellow; */
 }
 
 .trending_products .p_trending_products{
@@ -1428,6 +1420,73 @@ justify-content: space-between;
 
     .unique_products .two_flex{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
+
+    .inner_shadow{
+        /* display: none; */
+        margin-top: 100px;
+    }
+
+    .inner_shadow img{
+      /* display: contents; */
+    }
+
+    /* .unique_text 
+    ///////////////////
+    /////////////////*/
+     
+    .two_flex .unique_text{
+        padding-top: 10px;
+        /* margin: 0 auto; */
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .unique_text .unique_heading{
+        font-size: 23px;
+        text-decoration: underline;
+    }
+
+    .each_point_one .paragraph{
+        font-size: small;
+
+    }
+
+    .each_point_two .paragraph{
+        font-size: small;
+
+    }
+
+    .each_point_three .paragraph{
+        font-size: small;
+    }
+
+    .point_color img{
+        width: 50%;
+        height: 40%;
+    }
+
+    /* .Trending_pproducts
+    ////////////////////////
+    ///////////////////////
+    ///////////////////// */
+
+    .trending_products .p_trending_products{
+        font-size: 33px; 
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        padding-left: 120px;
+    }
+
+    .trending_products .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 400px;
+        margin: 0 auto;
+        gap: 1rem;
+        /* padding-right: 40px; */
+    }
+
 }
