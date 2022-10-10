@@ -995,7 +995,7 @@ justify-content: space-between;
     color: #151875;
     margin-top: 150px;
     margin-bottom: 50px;
-    margin-left: 600px;
+    margin-left: 500px;
     font-weight: bold;
 }
 
@@ -1477,7 +1477,7 @@ justify-content: space-between;
         margin: 0 auto;
         padding-top: 50px;
         padding-bottom: 10px;
-        padding-left: 120px;
+        padding-left: 80px;
     }
 
     .trending_products .container{
