@@ -1221,17 +1221,76 @@ justify-content: space-between;
     align-items: center;
 }
 
+/* .discount_list//////////////
+///////////////////////////////
+/////////////////////////// */
+
 .p_discount_item{
     font-family: 'Josefin Sans';
     font-size: 42px;
     line-height: 49px;
     color: #151875;
     font-weight: bold;
+    margin-left: 560px;
+    margin-bottom: 40px;
+    /* margin: 0 auto; */
 }
 
-/* .discount_list . */
+.discount_list {
+    /* background-color: yellow; */
+    display: flex;
+    margin-left: 530px;
+    width: fit-content;
+    margin-bottom: 50px;
+}
 
-.chair_space .wood_chair{
+.chair_space{
+    display: flex;
+    /* width: 100%; */
+}
+
+.chair_space .dot_one{
+    margin-left: 8px;
+}
+
+.chair_space .dot_one{
+    visibility: hidden;
+}
+
+.chair_space:nth-of-type(1):hover .dot_one{
+    visibility: visible;
+}
+
+.chair_space:nth-of-type(1):hover .chair_list{
+    color: #FB2E86;
+    text-decoration: underline;
+}
+
+.chair_space:nth-of-type(2):hover .dot_one{
+    visibility: visible;
+}
+
+.chair_space:nth-of-type(2):hover .chair_list{
+    color: #FB2E86;
+    text-decoration: underline;
+}
+
+.chair_space:nth-of-type(3):hover .dot_one{
+    visibility: visible;
+}
+
+.chair_space:nth-of-type(3):hover .chair_list{
+    color:#FB2E86;
+    text-decoration: underline;
+}
+
+.chair_space:nth-last-of-type(2){
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.chair_space .chair_list{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -1240,27 +1299,253 @@ justify-content: space-between;
     color: #151875;
 }
 
-.chair_space .plastic_chair{
+
+.discount_box{
+    width: 87%; 
+    display: flex;
+    margin: auto;
+}
+
+.discount_box .discount_card > div{
+    padding-bottom: 25px;
+}
+
+.discount_card  .title{
+    /* background-color: green; */
+    margin-top: 100px;
+}
+
+.discount_card .title{
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #151875;
+    font-weight: bold;
+}
+
+.discount_card .text{
+    font-family: 'Josefin Sans';
+    font-size: 21px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #FB2E86;
+}
+
+.discount_card .desc{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #151875;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B7BACB;
 }
 
-.chair_space .sofa_collection_chair{
+.discount_card .thick_text{
+    display: flex;
+}
+
+.rows{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: red; */
+    width: max-content;
+}
+
+.thick_text .thick_good{
+    margin-right: 6px;
+    /* background-color: hotpink; */
+    padding-top: 1px;
+    line-height: 2rem;
+}
+
+.thick_text .short_p{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B8B8DC;
+}
+
+.discount_card .shop_now{
+    font-family: 'Josefin Sans';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #FB2E86;
+    border: none;
+    padding: 12px 30px;
+}
+
+.discount_chair_image{
+    background-image: url(discount_images/discount_shadow.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-size: contain; */
+    /* width: 70%; */
+    /* height: 70%; */
+    background-position: top 30px;
+    /* width: 50%; */
+}
+
+/* top_categories///////////
+////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////// */
+
+.top_categories .p_top_categories{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    margin-left: 550px;
+    /* background-color: red; */
+}
+
+.top_categories{
+    /* background-color: hotpink; */
+}
+
+.circle_boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+    /* background-color: red; */
+    /* gap: 0.2rem; */
+    /* display: flex; */
+}
+
+.circle_boxes .circle_box{
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circle_box .top_section{
+    background-image: url("top_categories_images/seat_shadow2.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color: red;
+    /* background-position: center; */
+    /* width: min-content; */
+    /* clip-path: circle(); */
+    /* background-color: #F6F7FB; */
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+}
+
+.circle_image img{
+    width: 85%;
+    height: 85%;
+}
+
+.top_section .view_shop{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background-color: #08D15F;
+    border: none;
+    padding: 8px 13px 8px 13px;
+}
+
+.circle_box .bottom_section{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.bottom_section .text{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 19px;
     color: #151875;
 }
 
-.chair_space .dot{
-    font-size: 50px;
+.bottom_section .amount{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 19px;
+    color: #151875;
+    font-weight: bold;
 }
+
+.background{
+    background-image: url(background_images/Rectangle\ 102.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background h1{
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    line-height: 155%;
+    /* text-align: center; */
+    letter-spacing: 0.015em;
+    color: #151875;
+}
+
+.background h1 > span{
+    display: block;
+    text-align: center;
+}
+
+.background .shop_now{
+    font-family: 'Josefin Sans';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #FB2E86;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    margin-top: 20px;
+}
+
+.image_line{
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
 
 
 

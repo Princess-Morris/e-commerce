@@ -11,3 +11,5 @@
 ![CHEESE!](trending_images/trending_pic.png)
 
 ![CHEESE!](trending_images/trending_pic2.png)
+
+![CHEESE!](discount_images/discount_list_pic.png)
