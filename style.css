@@ -1535,14 +1535,138 @@ justify-content: space-between;
 }
 
 .image_line{
-    margin-left: 180px;
-    margin-bottom: 50px;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
 
+/* leatest_blog/////////////////////
+///////////////////////////////////
+//////////////////////////////// */
 
+.ltst2_boxes{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    /* background-color: red; */
+    /* padding-bottom: 40px; */
+    margin: 0 auto;
+}
 
+.ltst2_boxes .ltst2_box{
+    height: 430px;
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 90px;
+}
 
+.leatest_blog .p_leatest_blog{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 17%;
+    padding-bottom: 50px;
+}
 
+.blog_photo{
+    width: 100%;
+    height: 50%;
+}
+
+.blog_photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.opening,
+ h1,
+ p,
+ a{
+    margin-top: 15px;
+    padding-left: 13px;
+}
+
+a{
+    padding-top: 2px;
+    /* background-color: blue; */
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: end; */
+}
+
+.ltst2_box .opening{
+    display: flex;
+    width: 70%;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+
+.opening .name_sctn{
+    display: flex;
+    /* background-color: blue; */
+}
+
+.name_sctn .name_pin{
+    margin-right: 5px;
+}
+
+.opening .date_sctn{
+    display: flex;
+    /* background-color: yellow; */
+    align-items: center;
+}
+
+.date_sctn .date_pin{
+    margin-right: 5px;
+    /* margin-bottom: 2px; */
+    /* background-color: orchid; */
+}
+
+.name_sctn .name{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 16px;
+    color: #151875;
+}
+
+.date_sctn .date{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 16px;
+    color: #151875;
+}
+
+.ltst2_box h1{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 21px;
+    color: #151875;
+    font-weight: bold;
+}
+
+.ltst2_box p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #72718F;
+}
+
+.ltst2_box a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #151875;
+}
 
 
 

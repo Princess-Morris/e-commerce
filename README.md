@@ -17,3 +17,5 @@
 ![CHEESE!](discount_images/discount_pic.png)
 
 ![CHEESE!](background_images/background_pic.png)
+
+![CHEESE!](leatest_blog_images/leatest_blog_pic.png)
