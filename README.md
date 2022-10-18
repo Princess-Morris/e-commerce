@@ -19,3 +19,5 @@
 ![CHEESE!](background_images/background_pic.png)
 
 ![CHEESE!](leatest_blog_images/leatest_blog_pic.png)
+
+![CHEESES!](footer_image/footer_pic.png)
