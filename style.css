@@ -1315,11 +1315,8 @@
     /* width: 50%; */
 }
 
-/* top_categories///////////
-////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////// */
+/* top_categories
+////////////////////////////////////// */
 
 .top_categories .p_top_categories {
     font-family: 'Josefin Sans';
@@ -2045,6 +2042,9 @@ a {
         background-color: red;
     }
 
+    /* DISCOUNT_ITEM
+    ////////////////////////////// */
+
     .p_discount_item{
         width: 50%;
         margin: auto;
@@ -2102,6 +2102,23 @@ a {
 
     .discount_card .shop_now{
         font-size: 12px;
+    }
+
+    .discount_box{
+        display: grid;
+        grid-column: 1fr;
+        width: 100%;
+        background-color: red;
+    }
+
+    .discount_chair_image{
+     visibility: hidden;
+    }
+
+    .discount_chair_image img{
+        visibility: visible;
+       width: 80%;
+       height: 90%;
     }
 
     /* TOP_CATEGORIES 
@@ -2168,5 +2185,50 @@ a {
 
     .date_sctn .date{
         font-size: 10px;
+    }
+
+    .blog_photo{
+        width: 90%;
+        height: 40%;
+    }
+
+    .footer .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 1px;
+        width: 100%;
+    }
+
+    .hekto_sctn .hekto{
+        font-size: x-large;
+    }
+
+    .other_sctn .our_packages{
+        font-size: large;
+    }
+
+    .item_list .item{
+        font-size: 12px;
+    }
+
+    .form-control{
+        font-size: 12px;
+    }
+
+    .btn{
+        font-size: 12px; 
+        /* margin-top: 10px; */
+    }
+
+    /* FOOTER_END
+    ///////////////////////////////// */
+
+    .footer_end .copy_right{
+        display: none;
+    }
+
+    .footer_end .social_media{
+        padding-left: 1px;
+        margin: auto;
     }
 }
