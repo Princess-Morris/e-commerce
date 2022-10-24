@@ -32,3 +32,5 @@ Mobile View
 ![CHEESE!](featured_images/featured_mobile.png)
 
 ![CHEESE!](featured_images/featured_mobile2.png)
+
+![CHEESE!](featured_images/featured_mobile_pic2.png)
