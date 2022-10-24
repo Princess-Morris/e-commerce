@@ -14,11 +14,17 @@ Hi, you can visit this site for more household options
 
 ![CHEESE!](trending_images/trending_pic.png)
 
-![CHEESE!](trending_images/trending_pic2.png)
+<!-- off_products -->
+
+![CHEESE!](off_products_images/off_product_pic.png)
+
+<!-- discount_images -->
 
 ![CHEESE!](discount_images/discount_list_pic.png)
 
 ![CHEESE!](discount_images/discount_pic.png)
+
+<!-- top_categories -->
 
 ![CHEESE!](top_categories_images/top_cat_pic.png)
 
@@ -62,8 +68,6 @@ Mobile View
 ![CHEESE!](trending_images/trending_mob.png)
 
 ![CHEESE!](trending_images/trending_mob1.png)
-
-![CHEESE!](trending_images/trending_mob2.png)
 
 ![CHEESE!](trending_images/trending_mob3.png)
 
