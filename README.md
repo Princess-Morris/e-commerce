@@ -25,3 +25,8 @@ Hi, you can visit this site for more household options
 ![CHEESE!](leatest_blog_images/leatest_blog_pic.png)
 
 ![CHEESES!](footer_image/footer_pic.png)
+
+
+Mobile View
+
+![CHEESE!](featured_images/featured_mobile.png)
