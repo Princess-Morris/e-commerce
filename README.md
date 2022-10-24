@@ -29,8 +29,6 @@ Hi, you can visit this site for more household options
 
 Mobile View
 
-![CHEESE!](featured_images/featured_mobile.png)
-
-![CHEESE!](featured_images/featured_mobile2.png)
+![CHEESE!](featured_images/featured_mobile_pic.png)
 
 ![CHEESE!](featured_images/featured_mobile_pic2.png)
