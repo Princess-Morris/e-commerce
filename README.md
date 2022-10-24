@@ -65,6 +65,8 @@ Mobile View
 
 ![CHEESE!](trending_images/trending_mob2.png)
 
+![CHEESE!](trending_images/trending_mob3.png)
+
 ![CHEESE!](off_products_images/off_products_mob1.png)
 
 ![CHEESE!](off_products_images/off_products_mob2.png)
