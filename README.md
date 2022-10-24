@@ -57,13 +57,17 @@ Mobile View
 
 ![CHEESE!](leatest_images/leatest_mob4.png)
 
+<!-- shopex -->
+
 ![CHEESE!](shopex_img/shopex_mob1.png)
 
-![CHEESE!](unique_images)
+<!-- unique_images -->
 
 ![CHEESE!](unique_images/unique_mob1.png)
 
 ![CHEESE!](unique_images/unique_mob2.png)
+
+<!-- trending_images -->
 
 ![CHEESE!](trending_images/trending_mob.png)
 
