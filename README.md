@@ -4,7 +4,7 @@
 
 ![CHEESE!](leatest_images/leatest_text_pic.png)
 
-![CHEESE!](leatest_images/leatest_pics.png)
+![CHEESE!](leatest_images/leatest_pic.png)
 
 ![CHEESE!](shopex_img/shopex_pics.png)
 
