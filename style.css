@@ -987,7 +987,6 @@
 
 .a_box {
     background-color: #FFF6FB;
-    /* height: 400px; */
     width: 325px;
     height: 235px;
     margin-right: 18px;
@@ -1908,6 +1907,8 @@ a {
     .two_flex .unique_text{
         /* background-color: rosybrown; */
         width: 100%;
+        padding-left: 20px;
+        /* width: 90%; */
     }
 
     .unique_text .unique_heading{
@@ -1927,7 +1928,7 @@ a {
     .each_point_one .paragraph{
         font-size: 13px;
         /* background-color: yellow; */
-    }
+    } 
 
     .points .each_point_one .point_color{
        display: none;
@@ -1953,6 +1954,7 @@ a {
 
     .add_cart a{
         font-size: 13px;
+        margin-bottom: 20px;
     }
 
     .add_cart .italian{
@@ -1981,11 +1983,8 @@ a {
         grid-template-columns: 1fr 1fr;
         /* background-color: red; */
         margin-left: 25px;
-        width: 45%;
-        /* gap: 2rem; */
-
-        
-    }
+        width: 50%;
+   } 
 
     /* OFF_PRODUCTS
     /////////////////////////////// */
@@ -1994,12 +1993,14 @@ a {
         /* background-color: blue; */
         width: 100%;
         padding-left: 40px;
+        padding-left: 70px;
         height: 846px;
     }
 
     .a_box {
         width: 60%;
         height: 200px;
+        /* margin-right: 2px; */
     }
 
     .a_box .a_box_text{
@@ -2061,12 +2062,14 @@ a {
     .discount_box{
         /* background-color: red; */
         margin-left: 20px;
+        padding-left: 40px;
     }
 
     .discount_card .title{
         margin-top: 30px;
         width: 70%;
         font-size: 20px;
+        /* background-color: red; */
     }
 
     .discount_card .desc{
@@ -2242,7 +2245,12 @@ a {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+        overflow-x: hidden;
      }
+
+    body {
+        /* overflow-x: hidden; */
+    }
 
     .arrivals .arrival_list{
         padding-left: 8px;
@@ -2256,12 +2264,28 @@ a {
         /* background-color: red; */
     }
 
+    /* LEATEST_PRODUCTS
+    //////////////////////////////////////// */
+
     .leatest_products .p_leatest_products {
         width: 60%;
         /* background-color: red; */
     }
 
-    /* SHOPEX_CONTAINER
+    .grid_leatest_products_one .container {
+        overflow-x: visible;
+    }
+
+    .squared_box .top_section{
+        height: 80%;
+    }
+
+    .gold_wood img{
+        height: 100%;
+    }
+
+
+    /* SHOPEX_CONTAINER;
     ///////////////////////////////////// */
 
     .p_shopex_offer{
@@ -2297,7 +2321,8 @@ a {
     }
 
     .unique_text .points{
-        width: 30%;
+        width: 25%;
+        /* background-color: blue; */
     }
 
     .two_flex .unique_text{
@@ -2316,6 +2341,8 @@ a {
         display: grid;
         grid-template-columns: 1fr;
         margin-left: 55px;
+        /* margin: auto; */
+        overflow-x:visible;
     }
 
     /* OFF_PRODUCT
@@ -2323,6 +2350,18 @@ a {
 
     .off_products .container{
         padding-left: 60px;
+    }
+
+    .a_box{
+        overflow-y: hidden;
+    }
+
+    .a_box_two{
+        overflow-y: hidden;
+    }
+
+    .third_box{
+        overflow-y: hidden;
     }
 
     /* DISCOUNT_ITEM
@@ -2337,6 +2376,14 @@ a {
         width: 80%;
     }
 
+    .discount_card .title{
+        margin-top: 30px;
+        width: 70%;
+        font-size: 20px;
+        font-size: medium;
+        /* background-color: red; */
+    }
+
     .chair_space .chair_list{
         font-size: 12px;
     }
@@ -2344,6 +2391,13 @@ a {
     .discount_card .title{
         width: 90%;
     }
+
+    .discount_card .desc{
+        /* background-color: green; */
+        width: 80%;
+        font-size: 14px;
+    }
+
 
     /* LEATEST_BLOG
     ////////////////////////// */
